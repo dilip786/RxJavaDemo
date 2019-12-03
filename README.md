@@ -26,6 +26,9 @@ onCompleted() - invoked when the stream is finished emitting items.
 
 #### Dependencies 
 
+
+
+```
 def rxjava_version ="2.1.8"
 def rxandroid_version = "2.0.1"
 
@@ -34,6 +37,8 @@ dependencies
 	implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
          implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
 }
+
+```
 
 <td>
     <p align="center">
